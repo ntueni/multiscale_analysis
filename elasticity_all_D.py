@@ -10,7 +10,8 @@ r= 0.4  # inclusion radius
 # set_log_level(1) # mark function
 
 # # pick one dimension
-d=2
+#d=2
+d=3
 
 #Domain definition and mesh
 mesh = Mesh('geometry' + str(d)+'.xml')
@@ -236,3 +237,4 @@ if d == 3:
     print ("G23hom = "+str(G23hom))
     print ("G13hom = "+str(G13hom))
     print ("G12hom = "+str(G12hom))
+
